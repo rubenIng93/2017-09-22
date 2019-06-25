@@ -74,6 +74,14 @@ public class Race {
 	public void setUrl(String url) {
 		this.url = url;
 	}
+	@Override
+	public String toString() {
+		return String.format(
+				"Race -> raceId = %s, year = %s, round = %s, circuitId = %s, name = %s, date = %s, time = %s, url = %s",
+				raceId, year, round, circuitId, name, date, time, url);
+	}
+	
+	
 	
 	
 
